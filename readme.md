@@ -23,11 +23,11 @@ use local to pass variables between middleware
 
 3. propeller
 
-if next() were not called on the entry phase, the request will end
+if next() were not called on the entry phase, the request would end
 
-if next() were not called on the middleware phase, the request will go to propeller phase
+if next() were not called on the middleware phase, the request would go to propeller phase
 
-if next() were not called on the propeller phase, the request will end
+if next() were not called on the propeller phase, the request would end
 
 ## example
 
